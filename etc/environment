@@ -1,0 +1,7 @@
+## Default content #####################################################
+
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
+
+## Added content #######################################################
+
+VAR_FROM_ETC_ENVIRONMENT=true

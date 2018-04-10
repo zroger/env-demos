@@ -1,0 +1,5 @@
+#!/bin/bash
+
+VAR_ORDER="${VAR_ORDER}:etc/profile.d/*.sh"
+VAR_FROM_ETC_PROFILE_SCRIPT=true
+export VAR_FROM_ETC_PROFILE_SCRIPT_EXPORTED=true

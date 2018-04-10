@@ -1,4 +1,8 @@
 #!/bin/bash
 
-find etc/ -type f -exec cp -v {} /{} \;
-find usr/ -type f -exec cp -v {} /{} \;
+sudo find etc/ -type f -not -name "*.swp" \
+    -exec install -v --owner=root --group=root {} /{} \;
+sudo find usr/ -type f -not -name "*.swp" \
+    -exec install -v --owner=root --group=root {} /{} \;
+sudo find home/vagrant/ -type f -not -name "*.swp" \
+    -exec install -v --owner=vagrant --group=vagrant {} /{} \;
