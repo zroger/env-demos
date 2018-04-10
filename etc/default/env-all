@@ -1,0 +1,7 @@
+# /etc/default/env-all
+
+VAR_ORDER="${VAR_ORDER}:default-script"
+VAR_FROM_DEFAULT_SCRIPT=true
+export VAR_FROM_DEFAULT_SCRIPT_EXPORTED=true
+
+VAR_FROM_DEFAULT_SCRIPT_DEFERRED_EXPORT=true
